@@ -7,7 +7,7 @@ config:
       eth0:
         dhcp4: true
   user:
-    name: "jadiel"
+    name: "toor"
     password: "123456"
     ssh_authorized_keys:
       - "chave_ssh"
