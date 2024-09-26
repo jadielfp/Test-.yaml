@@ -1,0 +1,16 @@
+# Exemplo de configuração para autoinstalação
+version: 1
+config:
+  network:
+    version: 2
+    ethernets:
+      eth0:
+        dhcp4: true
+  user:
+    name: "jadiel"
+    password: "123456"
+    ssh_authorized_keys:
+      - "chave_ssh"
+  locale: "pt_BR.UTF-8"
+  timezone: "America/Sao_Paulo"
+
