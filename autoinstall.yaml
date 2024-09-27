@@ -1,14 +1,12 @@
 autoinstall:
+  version: 1
   identity:
-    hostname: abc.de
+    hostname: Toor.Desktop
     password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
     username: root
   users:
       - name: toor
         password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
         groups: [sudo]
-
-version: 1
-locale: "pt_BR.UTF-8"
-timezone: "America/Sao_Paulo"
+  timezone: 'America/Sao_Paulo'
 
