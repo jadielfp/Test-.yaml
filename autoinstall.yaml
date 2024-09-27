@@ -1,16 +1,11 @@
 # Exemplo de configuração para autoinstalação
-version: 1
-config:
-  network:
-    version: 2
-    ethernets:
-      eth0:
-        dhcp4: true
-  user:
-    name: "toor"
-    password: "123456"
-    ssh_authorized_keys:
-      - "chave_ssh"
+autoinstall:
+  version: 1
+  identity:
+    hostname: Toor-Test
+    username: toor
+    password: 123456
+    
   locale: "pt_BR.UTF-8"
   timezone: "America/Sao_Paulo"
 
