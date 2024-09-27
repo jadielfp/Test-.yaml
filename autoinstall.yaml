@@ -4,7 +4,7 @@ identity:
   username: root
 users:
     - name: toor
-      password: '$6$rounds=4096$saltsalt$encrypted_password_hash_here'
+      password: '$y$j9T$t1vtmXcCWgO21XG3jQpo00$856Njtnl9aQQTOZjuDVv3fxgjfecz7qMPSS8xhvmkP/:19950:0:99999:7:::'
       groups: [sudo]
 
 version: 1
