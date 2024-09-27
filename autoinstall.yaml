@@ -1,12 +1,8 @@
 autoinstall:
   version: 1
   identity:
+    realname: 'Toor'
+    username: toor
+    password: '$6$0mH2MV7XPeVl.BUd$atEwVo6EJNLd9fZP.jPCGtV574H48hcSa.nZ4zmVotoS3IfQ4w.0WQeDN7I/h6Uf/1ZTi.3NbKkdIU8MDZVWs0'  
     hostname: Toor.Desktop
-    password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
-    username: root
-  users:
-      - name: toor
-        password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
-        groups: [sudo]
-  timezone: 'America/Sao_Paulo'
-
+  timezone: "America/Sao_Paulo"
