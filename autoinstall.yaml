@@ -1,11 +1,12 @@
-identity:
-  hostname: abc.de
-  password: '$y$j9T$t1vtmXcCWgO21XG3jQpo00$856Njtnl9aQQTOZjuDVv3fxgjfecz7qMPSS8xhvmkP/:19950:0:99999:7:::'
-  username: root
-users:
-    - name: toor
-      password: '$y$j9T$t1vtmXcCWgO21XG3jQpo00$856Njtnl9aQQTOZjuDVv3fxgjfecz7qMPSS8xhvmkP/:19950:0:99999:7:::'
-      groups: [sudo]
+autoinstall:
+  identity:
+    hostname: abc.de
+    password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
+    username: root
+  users:
+      - name: toor
+        password: $1$rGYC6GgD$0qhGXNpifggUEwUYZOoXk0
+        groups: [sudo]
 
 version: 1
 locale: "pt_BR.UTF-8"
